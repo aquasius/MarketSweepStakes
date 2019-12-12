@@ -25,6 +25,7 @@ namespace Sweepstakes
             UserInterface.GetContestantInformation("Please enter your last name:");
             lastName = Console.ReadLine();
             UserInterface.GetContestantInformation("Please enter a valid e-mail address:");
+            emailAddress = Console.ReadLine();
         }
 
     }
