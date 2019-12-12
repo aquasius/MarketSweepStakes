@@ -18,7 +18,10 @@ namespace Sweepstakes
 
 
         //member methods (can do)
-
+        public void GetContestantInfo()
+        {
+            UserInterface.GetContestantInformation("Please enter your first name:");
+        }
 
     }
 }

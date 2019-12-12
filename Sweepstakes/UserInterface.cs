@@ -8,15 +8,24 @@ namespace Sweepstakes
 {
     class UserInterface
     {
-        //member variables(has a)
-
-
-        //constructor
-
-
-        //member methods(can do)
-        
+        public static void GetContestantInformation(string message)
+        {
+            Console.WriteLine(message);
+        }
     
+        public static void EnterSweepstakesName()
+        {
+            Console.Write("Please enter the name of the sweepstakes:");
+
+        }
+
+        public static void EnterMaxNumberOfContestant()
+        {
+            Console.WriteLine("Please enter the max number of contestants for this sweepstakes:");
+        }
+
+
     
     }
 }
+
