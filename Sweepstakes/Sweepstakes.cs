@@ -12,7 +12,6 @@ namespace Sweepstakes
         Dictionary<int, Contestant> sweepstakesContestants = new Dictionary<int, Contestant>();
         string name;
         public int contestantCounter;
-        public int maxContestants;
         Contestant winner;
         public string Name
         {
@@ -30,13 +29,14 @@ namespace Sweepstakes
         //constructor
         public Sweepstakes(string name)
         {
-
+              
         }
 
 
         // member methods (can do)
-        public void RegisterContestant(Contestant, contestant)
+        public void RegisterContestant(Contestant contestant)
         {
+            
 
         }
 
@@ -45,9 +45,9 @@ namespace Sweepstakes
 
         }
 
-        public void PrintContestantInfo(Contestant, contestant)
+        public void PrintContestantInfo(Contestant contestant)
         {
-
+            Console.WriteLine("Name: " + contestant.firstName + contestant.lastName + " Email: " + contestant.emailAddress + " Registration Number: " + contestant.registerNumber);
         }
 
 

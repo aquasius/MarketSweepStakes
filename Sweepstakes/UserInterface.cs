@@ -19,10 +19,7 @@ namespace Sweepstakes
 
         }
 
-        public static void EnterMaxNumberOfContestant()
-        {
-            Console.WriteLine("Please enter the max number of contestants for this sweepstakes:");
-        }
+        
 
 
     

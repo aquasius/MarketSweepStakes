@@ -18,7 +18,7 @@ namespace Sweepstakes
         public MarketingFirm(ISweepstakesManager sweepstakesManager)
         {
             this.sweepStakesManager = sweepstakesManager;
-            sweepstakes = new Sweepstakes(SweepStakesName, PromptMaxContestant);
+            sweepstakes = new Sweepstakes(sweepstakesName);
 
         }
 
