@@ -8,5 +8,16 @@ namespace Sweepstakes
 {
     class MarketingFirm
     {
+        //member variables(has a)
+        
+
+        //constructor
+        
+
+        //member methods (can do)
+        void 
+
+
+
     }
 }

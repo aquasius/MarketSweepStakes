@@ -6,17 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    class SweepstakesStackManager : ISweepstakesManager
+    class UserInterface
     {
-        //member variables (has a)
-
-
-        //constructor
-
-
-
-        //member methods(can do)
-
-
     }
 }
