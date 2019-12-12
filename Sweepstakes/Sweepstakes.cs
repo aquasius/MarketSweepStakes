@@ -10,7 +10,21 @@ namespace Sweepstakes
     {
         //member variables (has a)
         Dictionary<int, Contestant> sweepstakesContestants = new Dictionary<int, Contestant>();
-        
+        string name;
+        public int contestantCounter;
+        public int maxContestants;
+        Contestant winner;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
 
 
         //constructor

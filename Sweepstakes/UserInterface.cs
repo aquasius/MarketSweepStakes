@@ -8,5 +8,15 @@ namespace Sweepstakes
 {
     class UserInterface
     {
+        //member variables(has a)
+
+
+        //constructor
+
+
+        //member methods(can do)
+        
+    
+    
     }
 }
