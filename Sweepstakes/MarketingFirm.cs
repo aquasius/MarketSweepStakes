@@ -29,11 +29,7 @@ namespace Sweepstakes
             sweepstakesName = Console.ReadLine();
         }
 
-        public void PromptMaxContestant()
-        {
-            UserInterface.EnterMaxNumberOfContestant();
-            maxContestants = Convert.ToInt32(Console.ReadLine());
-        }
+       
 
 
     }
