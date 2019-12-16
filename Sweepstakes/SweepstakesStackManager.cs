@@ -8,14 +8,10 @@ namespace Sweepstakes
 {
     class SweepstakesStackManager : ISweepstakesManager
     {
-        //member variables (has a)
+        Stack<SweepstakesOne> sweepstakesStack = new Stack<SweepstakesOne>();
+        Stack<SweepstakesOne> tempSweepstakesStack = new Stack<SweepstakesOne>();
 
-
-        //constructor
-
-
-
-        //member methods(can do)
+       
 
 
     }
